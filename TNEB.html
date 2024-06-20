@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>TNEB Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EB Bill Calculator</h1>
+    </header>
+
+    <section class="content">
+        <div class="input">
+            <input class="inputarea" id="input1" type="text" placeholder="Enter the Units Consumed">
+            <button type="submit" id="calc">Calculate</button>
+        </div>
+
+        <div class="values">
+                <div class="amt"><h2>
+                    Rs. <h2 id="amtval">&nbsp;0.00</h2></h2>
+                </div>
+           
+           
+                <div >
+                <table class="low">
+                <tr>
+                    <th>Consumed Units</th>
+                    <th id="unit">Nil</th>
+                </tr>
+                <tr>
+                    <td>0-100 Units</td>
+                    <td id="f1">Nil</td>
+                </tr>
+                <tr>
+                    <td>100-200 Units</td>
+                    <td id="f2">Nil</td>
+                </tr>
+                <tr>
+                    <td>201-400 Units</td>
+                    <td id="f3">Nil</td>
+                </tr>
+                <tr>
+                    <td>401-500 Units</td>
+                    <td id="f4">Nil</td>
+                </tr>
+                <tr>
+                    <td>Total Amount</td>
+                    <td id="tot_amt">-</td>
+                </tr></table>
+            </div>
+            
+           
+                <div > <table class="high" >
+                    <tr>
+                        <th>Consumed Units</th>
+                        <th id="unit1">Nil</th>
+                    </tr>
+                    <tr>
+                        <td>0-100 Units</td>
+                        <td id="g1">0</td>
+                    </tr>
+                    <tr>
+                        <td>101-400 Units</td>
+                        <td id="g2">Nil</td>
+                    </tr>
+                    <tr>
+                        <td>401-500 Units</td>
+                        <td id="g3">Nil</td>
+                    </tr>
+                    <tr>
+                        <td>501-600 Units</td>
+                        <td id="g4">Nil</td>
+                    </tr>
+                    <tr>
+                        <td>601-800 units</td>
+                        <td id="g5">Nil</td>
+                    </tr>
+                    <tr>
+                        <td>801-1000 units</td>
+                        <td id="g6">Nil</td>
+                    </tr>
+                    <tr>
+                        <td>1001-Above units</td>
+                        <td id="g7">Nil</td>
+                    </tr>
+                    <tr>
+                        <td>Total Amount</td>
+                        <td id="tot_amt_high">-</td>
+                    </tr></table>
+                </div>
+                
+            
+        
+     
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
